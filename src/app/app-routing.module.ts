@@ -9,7 +9,7 @@ const appRoutes: Routes = [
   { path: 'crisis-center', component: CrisisListComponent },
   { path: 'heroes', component: HeroListComponent },
   { path: '',   redirectTo: '/heroes', pathMatch: 'full' },
-  { path: '**', component: PageNotFoundComponent }
+  { path: 'notFound', component: PageNotFoundComponent }
 ];
 
 const routes: Routes = [];
