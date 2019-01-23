@@ -7,10 +7,22 @@ The Angular Router enables navigation from one view to the next as users perform
 <ul>
 <li> Install Node.js
 
-<li> Install the Angular CLI:
+<li> Install the Angular CLI - 
+  
+  ```sh
   npm install -g @angular/cli
+  ```
+  
+<li> To install app dependencies-
+  
+  ```sh 
+  npm install 
+  ```
+  
 
-<li> Run npm install to install app dependencies
-
-<li> Run ng serve -o to start the server and launch the app
+<li> to start the server and launch the app
+  
+  ```sh
+  ng serve
+  ```
 </ul>
