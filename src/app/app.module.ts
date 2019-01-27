@@ -5,14 +5,14 @@ import {Routes } from '@angular/router';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { StudentComponent } from './student/student.component';
+import { CrisisListComponent } from './crisis-list/crisis-list.component';
 import { HeroListComponent } from './hero-list/hero-list.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    StudentComponent,
+    CrisisListComponent,
     HeroListComponent,
     PageNotFoundComponent
   ],
